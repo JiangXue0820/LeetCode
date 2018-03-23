@@ -5,5 +5,5 @@ class Solution(object):
         :type y: int
         :rtype: int
         """
-        # Use ^ operator for XOR
+        # Use operator ^ for XOR operation
         return bin(x^y).count("1")
